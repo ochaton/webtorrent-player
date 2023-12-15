@@ -10,11 +10,13 @@
     "@types/node": "^16.18.68",
     "@types/react": "^18.2.45",
     "@types/react-dom": "^18.2.17",
+    "antd": "^5.12.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "typescript": "^4.9.5",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "webtorrent": "^2.1.32"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -39,5 +41,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/core": "7.23.6",
+    "@babel/eslint-parser": "^7.23.3",
+    "@babel/plugin-syntax-import-assertions": "7.23.3",
+    "@babel/preset-env": "7.23.6",
+    "@types/webtorrent": "^0.109.7",
+    "customize-cra": "^1.0.0",
+    "babelify": "10.0.0",
+    "react-app-rewired": "^2.2.1"
   }
 }
